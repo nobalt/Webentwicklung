@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="WE_lokal" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="WE_lokal">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$USER_HOME$/OneDrive/Dokumente/Universität/6.Semester/Webentwicklung/Webentwicklung" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="WE_online">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
