@@ -28,12 +28,12 @@
                         <input class="form-check-input" type="checkbox">AGBs und Datenschutzbedingung akzeptieren
                     </label>
                 </div>
-                <a href="Aktuelle_Projekte.html"><button type="button" class="btn btn-primary" >Einloggen</button></a>
+                <a href="Aktuelle_Projekte.php"><button type="button" class="btn btn-primary" >Einloggen</button></a>
                 <p>Noch nicht registriert?
                     <button type="button" class="btn btn-link">Registrierung</button>
                     <br>
                     Da der Login Vorgang technisch noch nicht realisiert wurde:
-                    <a href="Aktuelle_Projekte.html"><button type="button" class="btn btn-link">Überspringen</button></a>
+                    <a href="Aktuelle_Projekte.php"><button type="button" class="btn btn-link">Überspringen</button></a>
                 </p>
             </form>
         </div>

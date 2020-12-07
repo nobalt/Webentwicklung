@@ -10,12 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbf4f74c-4c6e-4038-b7cf-a9291a472b07" name="Default Changelist" comment="Aufgabenblatt 2:&#10;Änderung:Navigation">
+    <list default="true" id="fbf4f74c-4c6e-4038-b7cf-a9291a472b07" name="Default Changelist" comment="Änderung: Navigation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aufgaben.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Personen.html" beforeDir="false" afterPath="$PROJECT_DIR$/Personen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekte.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projekte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reiter.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reiter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aktuelle_Projekte.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aktuelle_Projekte.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personen.html" beforeDir="false" afterPath="$PROJECT_DIR$/Personen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekte.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projekte.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reiter.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reiter.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607091191450</updated>
-      <workItem from="1607091194102" duration="8834000" />
+      <workItem from="1607091194102" duration="10113000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgabenblatt 2">
       <created>1607091356561</created>
@@ -91,7 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607346480942</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Änderung: Navigation">
+      <created>1607350480806</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607350480806</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Änderung: Navigation">
+      <created>1607350493809</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607350493809</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +127,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Aufgabenblatt 2" />
     <MESSAGE value="Aufgabenblatt 2:&#10;Änderung:Navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aufgabenblatt 2:&#10;Änderung:Navigation" />
+    <MESSAGE value="Änderung: Navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Änderung: Navigation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="266" y="92" key="#CLI_Interpreters" timestamp="1607341775060">
@@ -134,9 +151,9 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="186" y="81" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1607341799576" />
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1607346483884">
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1607350502373">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1607346483884" />
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1607350502373" />
   </component>
 </project>

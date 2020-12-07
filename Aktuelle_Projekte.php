@@ -22,13 +22,13 @@
                     <div class="col">
                         <ul class="list-group">
                             <li class="list-group-item">
-                                <a href="Login.html">Login</a>
+                                <a href="Login.php">Login</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="Projekte.html">Projekte</a>
+                                <a href="Projekte.php">Projekte</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="Aktuelle_Projekte.html">Aktuelle Projekte</a>
+                                <a href="Aktuelle_Projekte.php">Aktuelle Projekte</a>
                             </li>
                         </ul>
                     </div>
@@ -38,13 +38,13 @@
                     <div class="col">
                         <ul class="list-group">
                             <li class="list-group-item">
-                                <a href="Reiter.html">Reiter</a>
+                                <a href="Reiter.php">Reiter</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="Aufgaben.html">Aufgaben</a>
+                                <a href="Aufgaben.php">Aufgaben</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="Personen.html">Personen</a>
+                                <a href="Personen.php">Personen</a>
                             </li>
                         </ul>
                     </div>
