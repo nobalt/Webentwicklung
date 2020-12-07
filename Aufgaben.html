@@ -19,43 +19,39 @@
 
     <div class="row">
         <div class="col-md-2">
-            <ul class="nav flex-column">
-
-                <span class = "border">
-                      <a class="nav-link" href="Login.html">
-                          Login
-                      </a>
-                  </span>
-
-                <span class="border">
-                      <a class="nav-link" href="Projekte.html">
-                          Projekte
-                      </a>
-                  </span>
-
-                <span class ="border">
-                      <a class="nav-link" href="index.html">
-                          Aktuelle Projekte
-                      </a>
-                  </span>
-
-                <span class ="border" style="width:80%;margin-left:auto">
-                      <a class="nav-link" href="Reiter.html">
-                          Reiter
-                      </a>
-                  </span>
-
-                <span class ="border" style="width:80%;margin-left:auto">
-                      <a class="nav-link" href="Aufgaben.html">
-                          Aufgaben
-                      </a>
-                  </span>
-                <span class ="border"  style="width:80%;margin-left:auto" >
-                      <a class="nav-link" href="Personen.html">
-                         Personen <!--Mitglieder-->
-                      </a>
-                  </span>
-            </ul>
+            <nav>
+                <div class="row">
+                    <div class="col">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="Login.html">Login</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="Projekte.html">Projekte</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="Aktuelle_Projekte.html">Aktuelle Projekte</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-1"></div>
+                    <div class="col">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="Reiter.html">Reiter</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="Aufgaben.html">Aufgaben</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="Personen.html">Personen</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
 
         <div class="col-md-8">
@@ -188,19 +184,23 @@
 
             <div class="form-group">
                 <label>Zugehöriger Reiter:</label>
-                <select class="form-control">
-                    <option selected>ToDo</option>
-                    <option>Erledigt</option>
-                    <option>Verschoben</option>
-                </select>
+                <label>
+                    <select class="form-control">
+                        <option selected>ToDo</option>
+                        <option>Erledigt</option>
+                        <option>Verschoben</option>
+                    </select>
+                </label>
             </div>
 
             <div class="form-group">
                 <label>Zuständig:</label>
-                <select class="form-control">
-                    <option selected>Max Mustermann</option>
-                    <option>Petra Müller</option>
-                </select>
+                <label>
+                    <select class="form-control">
+                        <option selected>Max Mustermann</option>
+                        <option>Petra Müller</option>
+                    </select>
+                </label>
             </div>
 
 
