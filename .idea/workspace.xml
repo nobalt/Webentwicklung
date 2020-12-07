@@ -10,15 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbf4f74c-4c6e-4038-b7cf-a9291a472b07" name="Default Changelist" comment="Aufgabenblatt 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aufgaben.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Personen.html" beforeDir="false" afterPath="$PROJECT_DIR$/Personen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekte.html" beforeDir="false" afterPath="$PROJECT_DIR$/Projekte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reiter.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reiter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Aktuelle_Projekte.html" afterDir="false" />
-    </list>
+    <list default="true" id="fbf4f74c-4c6e-4038-b7cf-a9291a472b07" name="Default Changelist" comment="Aufgabenblatt 2:&#10;Änderung:Navigation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607091191450</updated>
-      <workItem from="1607091194102" duration="6743000" />
+      <workItem from="1607091194102" duration="7065000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgabenblatt 2">
       <created>1607091356561</created>
@@ -79,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607092242193</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Aufgabenblatt 2:&#10;Änderung:Navigation">
+      <created>1607346338074</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607346338074</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +97,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Aufgabenblatt 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aufgabenblatt 2" />
+    <MESSAGE value="Aufgabenblatt 2:&#10;Änderung:Navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aufgabenblatt 2:&#10;Änderung:Navigation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="266" y="92" key="#CLI_Interpreters" timestamp="1607341775060">
@@ -117,9 +117,9 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="186" y="81" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1607341799576" />
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1607092255631">
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1607346346685">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1607092255631" />
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1607346346685" />
   </component>
 </project>
