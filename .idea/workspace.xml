@@ -10,17 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbf4f74c-4c6e-4038-b7cf-a9291a472b07" name="Default Changelist" comment="Navigation auslagern">
-      <change afterPath="$PROJECT_DIR$/A2ArrayAktuellesProjekt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A2ArrayAufgaben.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A2ArrayPersonen.php" afterDir="false" />
+    <list default="true" id="fbf4f74c-4c6e-4038-b7cf-a9291a472b07" name="Default Changelist" comment="A2: Array erstellen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aktuelle_Projekte.php" beforeDir="false" afterPath="$PROJECT_DIR$/Aktuelle_Projekte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aufgaben.php" beforeDir="false" afterPath="$PROJECT_DIR$/Aufgaben.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Personen.php" beforeDir="false" afterPath="$PROJECT_DIR$/Personen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projekte.php" beforeDir="false" afterPath="$PROJECT_DIR$/Projekte.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reiter.php" beforeDir="false" afterPath="$PROJECT_DIR$/Reiter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2ArrayAktuellesProjekt.php" beforeDir="false" afterPath="$PROJECT_DIR$/A2ArrayAktuellesProjekt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2ArrayAufgaben.php" beforeDir="false" afterPath="$PROJECT_DIR$/A2ArrayAufgaben.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2ArrayPersonen.php" beforeDir="false" afterPath="$PROJECT_DIR$/A2ArrayPersonen.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607091191450</updated>
-      <workItem from="1607091194102" duration="16956000" />
+      <workItem from="1607091194102" duration="24163000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgabenblatt 2">
       <created>1607091356561</created>
@@ -124,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607419250947</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="A2: Array erstellen">
+      <created>1607421981707</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607421981707</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +148,8 @@
     <MESSAGE value="Änderung: Navigation" />
     <MESSAGE value="in PHP-Dateien umwandeln" />
     <MESSAGE value="Navigation auslagern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navigation auslagern" />
+    <MESSAGE value="A2: Array erstellen" />
+    <option name="LAST_COMMIT_MESSAGE" value="A2: Array erstellen" />
   </component>
   <component name="WindowStateProjectService">
     <state x="266" y="92" key="#CLI_Interpreters" timestamp="1607341775060">
@@ -178,9 +180,13 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="186" y="81" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1607341799576" />
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1607419257653">
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1607421985320">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1607419257653" />
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1607421985320" />
+    <state x="347" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1607422544248">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="347" y="184" width="672" height="678" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1607422544248" />
   </component>
 </project>

@@ -37,6 +37,17 @@ $aufgaben = array(
 echo '<pre>';
 var_dump($aufgaben);
 echo '</pre>';
+
+echo '<hr>';
+//A2 Teil b
+foreach($aufgaben as $Projekt){
+	if(isset($Projekt['Aufgabenbezeichnung'],$Projekt['Beschreibung der Aufgabe'],$Projekt['Reiter'],$Projekt['Zuständig'])){
+		echo ('Array ist vollständig'.'<br>');
+	}else{
+		echo ('Array ist nicht vollständig'.'<br>');
+	}
+}
+
 /*
 echo '<hr>';
 foreach($aufgaben as $aufgabe){
@@ -47,4 +58,3 @@ foreach($aufgaben as $aufgabe){
 }
 */
 
-?>

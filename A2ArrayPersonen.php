@@ -14,10 +14,20 @@ $personen = array(
 	)
 );
 
-
 echo '<pre>';
 var_dump($personen);
 echo '</pre>';
+
+
+echo '<hr>';
+//A2 Teil b
+foreach($personen as $Projekt){
+    if(isset($Projekt['id'],$Projekt['Name'],$Projekt['E-Mail'],$Projekt['In_Projekt'])){
+        echo ('Array ist vollständig'.'<br>');
+    }else{
+        echo ('Array ist nicht vollständig'.'<br>');
+    }
+}
 
 /*
 foreach($personen as $person){
@@ -28,4 +38,3 @@ foreach($personen as $person){
 }
 */
 
-?>
