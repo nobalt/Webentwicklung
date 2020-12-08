@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbf4f74c-4c6e-4038-b7cf-a9291a472b07" name="Default Changelist" comment="A2: Array erstellen">
+    <list default="true" id="fbf4f74c-4c6e-4038-b7cf-a9291a472b07" name="Default Changelist" comment="A2b: Array auf Vollständigkeit testen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A2ArrayAktuellesProjekt.php" beforeDir="false" afterPath="$PROJECT_DIR$/A2ArrayAktuellesProjekt.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A2ArrayAufgaben.php" beforeDir="false" afterPath="$PROJECT_DIR$/A2ArrayAufgaben.php" afterDir="false" />
@@ -53,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607091191450</updated>
-      <workItem from="1607091194102" duration="24163000" />
+      <workItem from="1607091194102" duration="25309000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgabenblatt 2">
       <created>1607091356561</created>
@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607421981707</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="A2b: Array auf Vollständigkeit testen">
+      <created>1607433225543</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607433225543</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +156,8 @@
     <MESSAGE value="in PHP-Dateien umwandeln" />
     <MESSAGE value="Navigation auslagern" />
     <MESSAGE value="A2: Array erstellen" />
-    <option name="LAST_COMMIT_MESSAGE" value="A2: Array erstellen" />
+    <MESSAGE value="A2b: Array auf Vollständigkeit testen" />
+    <option name="LAST_COMMIT_MESSAGE" value="A2b: Array auf Vollständigkeit testen" />
   </component>
   <component name="WindowStateProjectService">
     <state x="266" y="92" key="#CLI_Interpreters" timestamp="1607341775060">
@@ -180,10 +188,10 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="186" y="81" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1607341799576" />
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1607421985320">
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1607433237863">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1607421985320" />
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1607433237863" />
     <state x="347" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1607422544248">
       <screen x="0" y="0" width="1368" height="872" />
     </state>

@@ -1,4 +1,5 @@
 <?php
+//A2 Teil a
 $aufgaben = array(
 	0 => array(
 		'Aufgabenbezeichnung' => 'HTML Datei erstellen',
@@ -48,7 +49,7 @@ foreach($aufgaben as $Projekt){
 	}
 }
 
-/*
+//A2 Teil c
 echo '<hr>';
 foreach($aufgaben as $aufgabe){
     echo('Aufgabenbezeichnung: '.$aufgabe['Aufgabenbezeichnung'].'<br>');
@@ -56,5 +57,5 @@ foreach($aufgaben as $aufgabe){
     echo('Reiter: '.$aufgabe['Reiter'].'<br>');
     echo('Zuständig: '.$aufgabe['Zuständig'].'<br><br>');
 }
-*/
+
 

@@ -1,4 +1,5 @@
 <?php
+//A2 Teil a
 $personen = array(
 	0 => array(
 		'id' => 1,
@@ -29,12 +30,11 @@ foreach($personen as $Projekt){
     }
 }
 
-/*
+//A2 Teil c
 foreach($personen as $person){
     echo($person['id'].'<br>');
     echo('Name: '.$person['Name'].'<br>');
     echo('E-Mail: '.$person['E-Mail'].'<br>');
     echo('In Projekt: '.$person['In_Projekt'].'<br><br>');
 }
-*/
 

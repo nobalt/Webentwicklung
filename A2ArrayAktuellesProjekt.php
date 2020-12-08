@@ -1,4 +1,5 @@
 <?php
+//A2 Teil a
 $aktuellesProjekt = array(
 	0 => array(
 		'Überschrift' => 'ToDo:',
@@ -34,13 +35,13 @@ foreach($aktuellesProjekt as $Projekt){
 
 
 
-/*
+//A2 Teil c
 echo '<hr>';
 foreach($aktuellesProjekt as $projekt){
     echo('Überschrift: '.$projekt['Überschrift'].'<br>');
     echo('1 Aufgabe: '.$projekt['1_Aufgabe'].'<br>');
     echo('2 Aufgabe: '.$projekt['2_Aufgabe'].'<br><br>');
 }
-*/
+
 
 
