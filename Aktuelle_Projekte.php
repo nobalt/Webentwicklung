@@ -16,7 +16,7 @@
 
 
     <div class="row">
-        <!-- Navigation einbinden -->
+        <!-- A1 Navigation einbinden -->
         <?php include('Navigation.php'); ?>
 
             <!-- Alternativ:
@@ -29,10 +29,6 @@
                 <span class ="border" style="width:80%;margin-left:auto"><a class="nav-link" href="Aufgaben.html">Aufgaben</a></span>
                 <span class ="border"  style="width:80%;margin-left:auto" ><a class="nav-link" href="Personen.html">Personen</a></span>
             </ul> -->
-
-
-
-
 
         <div class="col-sm">
             <div class="list-group">

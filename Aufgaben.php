@@ -18,7 +18,7 @@
 
 
     <div class="row">
-        <!-- Navigation einbinden -->
+        <!-- A1 Navigation einbinden -->
         <?php include('Navigation.php'); ?>
         <div class="col-md-8">
             <table class="table table-responsive d-table">
