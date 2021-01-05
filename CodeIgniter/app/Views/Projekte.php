@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="utf-8">
 
-    <title>Projekte</title>
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-
-</head>
 
 
 <body>
@@ -18,7 +12,7 @@
 
     <div class="row">
         <!-- A1 Navigation einbinden -->
-        <?php include('Navigation.php'); ?>
+        <?php include('Templates/Navigation.php'); ?>
         <div class="col-md-8">
             <h2>Projekte Auswählen:</h2>
             <div class="form-group">

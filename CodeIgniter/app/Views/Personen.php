@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="utf-8">
 
-    <title>Personen</title>
-
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-
-</head>
 
 <body>
 <div class="container-fluid">
@@ -19,7 +11,7 @@
 
     <div class="row">
         <!-- A1 Navigation einbinden -->
-        <?php include('Navigation.php'); ?>
+        <?php include('Templates/Navigation.php'); ?>
 
         <div class="col-md-8">
             <table class="table table-responsive d-table">
@@ -33,8 +25,14 @@
 
                 <tbody>
                 <tr>
-                    <td>Max Mustermann</td>
-                    <td>mustermann@muster.de</td>
+                    <td><?php
+                    echo($personen[0]['Name']);
+                        ?>
+
+                    </td>
+                    <td><?php
+                        echo($personen[0]['E-Mail']);
+                        ?></td>
                     <td>
                         <label>
                             <input style="float: left" class="form-check-input" type="checkbox">
@@ -55,8 +53,12 @@
                 </tr>
 
                 <tr>
-                    <td>Petra Müller</td>
-                    <td>petra@mueller.de</td>
+                    <td><?php
+                        echo($personen[1]['Name']);
+                        ?></td>
+                    <td><?php
+                        echo($personen[1]['E-Mail']);
+                        ?></td>
                     <td>
                         <label>
                             <input class="form-check-input" type="checkbox">

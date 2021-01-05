@@ -1,15 +1,5 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="utf-8">
-
-    <title>Reiter</title>
-
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-
-</head>
-
 <body>
 <div class="container-fluid">
     <div  class="jumbotron">
@@ -19,7 +9,7 @@
 
     <div class="row">
         <!-- A1 Navigation einbinden -->
-        <?php include('Navigation.php'); ?>
+        <?php include('Templates/Navigation.php'); ?>
 
         <div class="col-md-8">
             <table class="table table-responsive d-table">
