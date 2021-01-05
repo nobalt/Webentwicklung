@@ -10,11 +10,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbf4f74c-4c6e-4038-b7cf-a9291a472b07" name="Default Changelist" comment="A2b: Array auf Vollständigkeit testen">
+    <list default="true" id="fbf4f74c-4c6e-4038-b7cf-a9291a472b07" name="Default Changelist" comment="A2 Teil c?">
+      <change afterPath="$PROJECT_DIR$/CodeIgniter/app/Views/Templates/Projekte.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeIgniter/app/Views/Templates/Reiter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Übung1-4/Aufgaben.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Übung1-4/Login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Übung1-4/Navigation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Übung1-4/Personen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A2ArrayAktuellesProjekt.php" beforeDir="false" afterPath="$PROJECT_DIR$/A2ArrayAktuellesProjekt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A2ArrayAufgaben.php" beforeDir="false" afterPath="$PROJECT_DIR$/A2ArrayAufgaben.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A2ArrayPersonen.php" beforeDir="false" afterPath="$PROJECT_DIR$/A2ArrayPersonen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2ArrayAktuellesProjekt.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2ArrayAufgaben.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2ArrayPersonen.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aktuelle_Projekte.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aufgaben.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Navigation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Personen.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projekte.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reiter.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +37,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/CodeIgniter/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
@@ -36,12 +52,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../xampp/php/php.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Übung1-4" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\norab\PhpstormProjects\Webentwicklung\CodeIgniter\app\Views\Templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\norab\PhpstormProjects\Webentwicklung\Übung1-4" />
+      <recent name="C:\Users\norab\PhpstormProjects\Webentwicklung\CodeIgniter\app\Views\Templates" />
+      <recent name="C:\Users\norab\PhpstormProjects\Webentwicklung\CodeIgniter\app\Controllers" />
       <recent name="C:\Users\norab\PhpstormProjects\Webentwicklung" />
     </key>
   </component>
@@ -53,7 +75,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607091191450</updated>
-      <workItem from="1607091194102" duration="25309000" />
+      <workItem from="1607091194102" duration="31144000" />
+      <workItem from="1607965114829" duration="4346000" />
+      <workItem from="1609877035655" duration="324000" />
+      <workItem from="1609877363007" duration="1362000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgabenblatt 2">
       <created>1607091356561</created>
@@ -132,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607433225543</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="A2 Teil c?">
+      <created>1607434282816</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607434282816</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +180,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Aufgabenblatt 2" />
@@ -157,17 +190,18 @@
     <MESSAGE value="Navigation auslagern" />
     <MESSAGE value="A2: Array erstellen" />
     <MESSAGE value="A2b: Array auf Vollständigkeit testen" />
-    <option name="LAST_COMMIT_MESSAGE" value="A2b: Array auf Vollständigkeit testen" />
+    <MESSAGE value="A2 Teil c?" />
+    <option name="LAST_COMMIT_MESSAGE" value="A2 Teil c?" />
   </component>
   <component name="WindowStateProjectService">
     <state x="266" y="92" key="#CLI_Interpreters" timestamp="1607341775060">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="266" y="92" key="#CLI_Interpreters/0.0.1368.872@0.0.1368.872" timestamp="1607341775060" />
-    <state x="277" y="95" key="#Deployment" timestamp="1607092121698">
+    <state x="277" y="95" key="#Deployment" timestamp="1609877907917">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="95" key="#Deployment/0.0.1368.872@0.0.1368.872" timestamp="1607092121698" />
+    <state x="277" y="95" key="#Deployment/0.0.1368.872@0.0.1368.872" timestamp="1609877907917" />
     <state x="311" y="115" key="#Inspections" timestamp="1607349487347">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
@@ -176,22 +210,22 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="415" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.872@0.0.1368.872" timestamp="1607352662276" />
-    <state x="466" y="192" key="FileChooserDialogImpl" timestamp="1607341753464">
+    <state x="466" y="192" key="FileChooserDialogImpl" timestamp="1609877777067">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="466" y="192" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1607341753464" />
+    <state x="466" y="192" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1609877777067" />
     <state x="519" y="360" key="NewPhpFileDialog" timestamp="1607421561562">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="519" y="360" key="NewPhpFileDialog/0.0.1368.872@0.0.1368.872" timestamp="1607421561562" />
-    <state x="186" y="81" key="SettingsEditor" timestamp="1607341799576">
+    <state x="303" y="10" key="SettingsEditor" timestamp="1609878023056">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="186" y="81" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1607341799576" />
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1607433237863">
+    <state x="303" y="10" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1609878023056" />
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1609878723471">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1607433237863" />
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1609878723471" />
     <state x="347" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1607422544248">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
