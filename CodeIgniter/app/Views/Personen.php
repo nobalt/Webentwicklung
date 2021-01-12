@@ -25,7 +25,9 @@
 
                 <tbody>
                 <tr>
-                    <td><?php
+                    <td>
+                        //Aufgabe 2
+                        <?php
                     echo($personen[0]['Name']);
                         ?>
 

@@ -4,6 +4,7 @@ class Personen extends BaseController
 {
 	public function index()
 	{
+	    //Aufgabe 2
 	    $data['personen'] = array(
         0 => array(
             'id' => 1,
