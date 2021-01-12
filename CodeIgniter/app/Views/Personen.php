@@ -24,17 +24,22 @@
                 </thead>
 
                 <tbody>
+                <!-- Übung 6 Aufgabe 1-->
+                <?php foreach ($mitglieder as $item): ?>
                 <tr>
-                    <td>
-                        //Aufgabe 2
-                        <?php
-                    echo($personen[0]['Name']);
-                        ?>
+                    <td><?= $item['Username']?></td>
+                    <td><?= $item['EMail']?></td>
 
+
+               <!-- Übung 5 Aufgabe 2
+               <tr>
+                    <td>
+                      < ?php echo($personen[0]['Name']); ?>
                     </td>
-                    <td><?php
-                        echo($personen[0]['E-Mail']);
-                        ?></td>
+                    <td>
+                    < ?php echo($personen[0]['E-Mail']); ?>
+                    </td>
+
                     <td>
                         <label>
                             <input style="float: left" class="form-check-input" type="checkbox">
@@ -55,12 +60,13 @@
                 </tr>
 
                 <tr>
-                    <td><?php
+                    <td>< ?php
                         echo($personen[1]['Name']);
                         ?></td>
-                    <td><?php
+                    <td>< ?php
                         echo($personen[1]['E-Mail']);
                         ?></td>
+                        -->
                     <td>
                         <label>
                             <input class="form-check-input" type="checkbox">
@@ -78,7 +84,7 @@
                         </span>
                     </td>
                 </tr>
-
+                <?php endforeach;?>
                 </tbody>
             </table>
 

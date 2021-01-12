@@ -13,11 +13,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbf4f74c-4c6e-4038-b7cf-a9291a472b07" name="Default Changelist" comment="Übung 5 - Änderungen">
+    <list default="true" id="fbf4f74c-4c6e-4038-b7cf-a9291a472b07" name="Default Changelist" comment="Übung 5">
+      <change afterPath="$PROJECT_DIR$/CodeIgniter/app/Models/ModelPersonen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/Passwort.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Webentwicklung.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Webentwicklung.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Config/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Config/Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Controllers/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Controllers/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Controllers/Login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Controllers/Personen.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Controllers/Personen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Views/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Views/Login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Views/Personen.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Views/Personen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Views/Templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Views/Templates/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Studienprojekt_WEB" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CodeIgniter/app/Models" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -50,11 +58,11 @@
       <recent name="C:\Users\norab\PhpstormProjects\Webentwicklung\CodeIgniter\app\Views\Templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\norab\PhpstormProjects\Webentwicklung\CodeIgniter\app\Models" />
       <recent name="C:\Users\norab\PhpstormProjects\Webentwicklung\CodeIgniter\app\Views" />
       <recent name="C:\Users\norab\PhpstormProjects\Webentwicklung\CodeIgniter\writable" />
       <recent name="C:\Users\norab\PhpstormProjects\Webentwicklung\CodeIgniter\app\Views\Templates" />
       <recent name="C:\Users\norab\PhpstormProjects\Webentwicklung\CodeIgniter\app\Controllers" />
-      <recent name="C:\Users\norab\PhpstormProjects\Webentwicklung\Übung1-4" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -68,7 +76,7 @@
       <workItem from="1607091194102" duration="31144000" />
       <workItem from="1607965114829" duration="4346000" />
       <workItem from="1609877035655" duration="324000" />
-      <workItem from="1609877363007" duration="13222000" />
+      <workItem from="1609877363007" duration="30193000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgabenblatt 2">
       <created>1607091356561</created>
@@ -189,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609918795747</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Übung 5">
+      <created>1610450075481</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1610450075482</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Übung 5">
+      <created>1610450080871</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1610450080871</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,28 +238,28 @@
     <MESSAGE value="A2: Array erstellen" />
     <MESSAGE value="A2b: Array auf Vollständigkeit testen" />
     <MESSAGE value="A2 Teil c?" />
-    <MESSAGE value="Übung 5" />
     <MESSAGE value="Übung 5 - weitere Änderungen" />
     <MESSAGE value="Übung 5 - Änderungen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Übung 5 - Änderungen" />
+    <MESSAGE value="Übung 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Übung 5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="266" y="92" key="#CLI_Interpreters" timestamp="1607341775060">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="266" y="92" key="#CLI_Interpreters/0.0.1368.872@0.0.1368.872" timestamp="1607341775060" />
-    <state x="277" y="95" key="#Deployment" timestamp="1609877907917">
+    <state x="277" y="95" key="#Deployment" timestamp="1610454798714">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="95" key="#Deployment/0.0.1368.872@0.0.1368.872" timestamp="1609877907917" />
+    <state x="277" y="95" key="#Deployment/0.0.1368.872@0.0.1368.872" timestamp="1610454798714" />
     <state x="311" y="115" key="#Inspections" timestamp="1607349487347">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="311" y="115" key="#Inspections/0.0.1368.872@0.0.1368.872" timestamp="1607349487347" />
-    <state x="456" y="239" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609879928337">
+    <state x="456" y="239" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610451251385">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="456" y="239" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1368.872@0.0.1368.872" timestamp="1609879928337" />
+    <state x="456" y="239" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1368.872@0.0.1368.872" timestamp="1610451251385" />
     <state x="415" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609879578690">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
@@ -246,18 +268,18 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="466" y="192" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1610439810466" />
-    <state x="519" y="360" key="NewPhpFileDialog" timestamp="1609880385161">
+    <state x="519" y="360" key="NewPhpFileDialog" timestamp="1610481289196">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="519" y="360" key="NewPhpFileDialog/0.0.1368.872@0.0.1368.872" timestamp="1609880385161" />
+    <state x="519" y="360" key="NewPhpFileDialog/0.0.1368.872@0.0.1368.872" timestamp="1610481289196" />
     <state x="303" y="10" key="SettingsEditor" timestamp="1609878023056">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="303" y="10" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1609878023056" />
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1609918803613">
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1610450086736">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1609918803613" />
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1610450086736" />
     <state x="343" y="200" key="run.anything.popup" timestamp="1609881173795">
       <screen x="0" y="0" width="1368" height="872" />
     </state>

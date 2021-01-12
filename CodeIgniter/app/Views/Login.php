@@ -14,7 +14,10 @@
     <div class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
-            <form>
+
+            <!-- Übung 6 Aufgabe 1-->
+            <?= form_open('Login/index', array('role' => 'form'))?>
+
                 <div class="form-group">
                     <label for="email">Email-Adresse:</label>
                     <input type="email" class="form-control" placeholder="Email-Adresse eingeben" id="email">

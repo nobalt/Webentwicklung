@@ -1,10 +1,12 @@
 <?php namespace App\Controllers;
+use App\Models\ModelPersonen;
 use CodeIgniter\Controller;
+
 class Personen extends BaseController
 {
 	public function index()
 	{
-	    //Aufgabe 2
+	   /* //Übung 5 Aufgabe 2
 	    $data['personen'] = array(
         0 => array(
             'id' => 1,
@@ -20,6 +22,10 @@ class Personen extends BaseController
         )
         );
 
+ */
+        //Übung 6 Aufgabe 1
+        $mymodel = new ModelPersonen();
+        $data['mitglieder']= $mymodel->getData();
 
         echo view('Templates/header.php');
         echo view('Personen.php',$data);
