@@ -14,16 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbf4f74c-4c6e-4038-b7cf-a9291a472b07" name="Default Changelist" comment="Übung 6">
-      <change afterPath="$PROJECT_DIR$/CodeIgniter/app/Models/AufgabenModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeIgniter/app/Models/LoginModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeIgniter/app/Models/ProjekteModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Controllers/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Controllers/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Controllers/Personen.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Controllers/Personen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Models/ModelPersonen.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Models/ModelPersonen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Views/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Views/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Views/Personen.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Views/Personen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Views/Templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Views/Templates/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +68,7 @@
       <workItem from="1609877035655" duration="324000" />
       <workItem from="1609877363007" duration="32825000" />
       <workItem from="1611081883290" duration="7820000" />
+      <workItem from="1611128298060" duration="2637000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgabenblatt 2">
       <created>1607091356561</created>
@@ -291,9 +284,9 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="343" y="200" key="run.anything.popup/0.0.1368.872@0.0.1368.872" timestamp="1609881173795" />
-    <state x="350" y="187" width="672" height="678" key="search.everywhere.popup" timestamp="1609919059407">
+    <state x="351" y="188" width="672" height="678" key="search.everywhere.popup" timestamp="1611129554645">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="350" y="187" width="672" height="678" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1609919059407" />
+    <state x="351" y="188" width="672" height="678" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1611129554645" />
   </component>
 </project>

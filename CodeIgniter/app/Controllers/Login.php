@@ -1,7 +1,7 @@
 <?php namespace App\Controllers;
 
 use App\Models\LoginModell;
-use App\Models\PersonenModel;
+use App\Models\ModelPersonen;
 use CodeIgniter\Controller;
 
 class LogIn extends BaseController
