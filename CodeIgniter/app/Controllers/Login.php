@@ -1,14 +1,53 @@
 <?php namespace App\Controllers;
-use App\Models\ModelPersonen;
+
+use App\Models\LoginModell;
+use App\Models\PersonenModel;
 use CodeIgniter\Controller;
-class Login extends BaseController
+
+class LogIn extends BaseController
 {
-   public function __construct(){
+    public function index()
+    {
+        $data['title_name'] = 'Login';
+
+
+        echo view('Templates/Header');
+        echo view('LogIn');
+        echo view('Templates/Footer');
+    }
+
+    public function submit(){
+
+        if($this->validation->run($this->request->getPost(), 'login_valid')){
+            $loginModel = new LoginModell();
+            if(isset($_POST['EMail']) && isset($_POST['Password'])){
+                if($loginModel->login($_POST['EMail'] != null)){
+                    $password = $loginModel->login()['Password'];
+                    if(password_verify($_POST['Password'], $password)){
+                        $this->session->set('loggedin', true);
+                        return redirect()->to(base_url() . '/public/index');
+                    }
+                }
+            }
+        }else{
+            $data['error'] = $this->validation->getErrors();
+            $data['title_name'] = 'Login';
+
+
+            echo view('Templates/Header');
+            echo view('LogIn');
+            echo view('Templates/Footer');
+        }
+    }
+    //--------------------------------------------------------------------
+
+}
+   /* public function __construct(){
         $this->PersonenModel = new ModelPersonen();
     }
 
 	public function index(){
-    /*
+
         if(isset($POST['username'])&& isset($POST['passwort'])){
 	    if($this->PersonenModel->login()!=NULL){
 	        $passwort = $this->PersonenModel->login()['passwort'];
@@ -18,19 +57,19 @@ class Login extends BaseController
             }
         }
     }
-    */
+
         //echo view('Templates/header.php');
-		echo view('Login.php');
+		//echo view('Login.php');
 		//echo view('Templates/footer.php');
-	}
+	//}
 
 	//--------------------------------------------------------------------
 
-       /*
+
          public function logout(){
         $this->>session->destroy();
         return redirect()->to(base_url().'/login');
         }
        */
 
-}
+

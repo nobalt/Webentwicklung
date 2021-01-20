@@ -24,14 +24,45 @@
                 </thead>
 
                 <tbody>
-                <!-- Übung 6 Aufgabe 1-->
-                <?php foreach ($mitglieder as $item): ?>
+                <form action="<?php echo base_url('public/Personen/button_filter') ?>" method="post">
+                    <?php
+                    if(isset($mitarbeiter)){
+                        foreach ($mitarbeiter as $row){
+                            echo ('<tr>');
+                            if(isset($row)){
+                                $firstElement = true;
+                                foreach ($row as $cell){
+                                    if(isset($cell) && !$firstElement){
+                                        echo ('<td>' . $cell . '</td>');
+                                    }else{
+                                        $firstElement = false;
+                                    }
+                                }
+                                echo ('<td><div class="form-group form-check"  width="50%"><input type="checkbox" class="form-check-input" id="inProj"><label class="form-check-label" for="inProj" width="50%"></label></div></td>');
+                                echo ('<td>
+                        <div class="btn-group">
+                            <button type="submit" name="editButton" id="editButton" value="');
+                                echo ($row['id']);
+                                echo ('" class="btn" ><i class="far fa-edit" style="color:#3498DB"></i></button>
+                            <button type="submit" name="deleteButton" id="deleteButton" value="');
+                                echo ($row['id']);
+                                echo ('" class="btn"><i class="far fa-trash-alt" style="color:#3498DB"></i></i></button>
+                        </div>
+                    </td>');
+                            }
+                            echo ('</tr>');
+                        }
+                    }
+                    form_close()
+                    ?>
+                <!-- Übung 6 Aufgabe 1
+                < ?php foreach ($mitglieder as $item): ?>
                 <tr>
-                    <td><?= $item['Username']?></td>
-                    <td><?= $item['EMail']?></td>
+                    <td>< ?= $item['Username']?></td>
+                    <td>< ?= $item['EMail']?></td>
 
 
-               <!-- Übung 5 Aufgabe 2
+              Übung 5 Aufgabe 2
                <tr>
                     <td>
                       < ?php echo($personen[0]['Name']); ?>
@@ -66,7 +97,7 @@
                     <td>< ?php
                         echo($personen[1]['E-Mail']);
                         ?></td>
-                        -->
+
                     <td>
                         <label>
                             <input class="form-check-input" type="checkbox">
@@ -84,26 +115,28 @@
                         </span>
                     </td>
                 </tr>
-                <?php endforeach;?>
+                < ?php endforeach;?>
+                -->
                 </tbody>
             </table>
 
 
             <h3>Bearbeiten/Erstellen:</h3>
+            <form action="<?php base_url('public/Personen/button_filter') ?>" method="post">
 
             <div class="form-group">
                 <label for="Username">Username:</label>
-                <input type="text" class="form-control" placeholder="Username" id="Username">
+                <input type="text" class="form-control" name="username" placeholder="Username" id="username"value="<?php if (isset($editName)){echo ($editName);} ?>">
             </div>
 
             <div class="form-group">
                 <label for="E-Mail">E-Mail-Adresse:</label>
-                <textarea type="textarea" class="form-control" placeholder="E-Mail-Adresse eingeben" id="E-Mail"></textarea>
+                <input type="email" class="form-control" placeholder="E-Mail-Adresse eingeben" name="email" id="email" value="<?php if (isset($editEMail)){echo ($editEMail);} ?>"></input>
             </div>
 
             <div class="form-group">
                 <label for="passwort">Passwort:</label>
-                <input type="text" class="form-control" placeholder="Passwort" id="passwort">
+                <input type="text" class="form-control" name="password" placeholder="Passwort" id="password">
             </div>
 
             <div class="form-group form-check">
@@ -111,10 +144,10 @@
                     <input class="form-check-input" type="checkbox">Dem Projekt zugeordnet
                 </label>
             </div>
-            <button type="button" class="btn btn-primary">Speichern</button>
+            <button name="saveButton" id="saveButton" value="<?php if (isset($editID)){echo ($editID);} ?>" class="btn btn-primary">Speichern</button>
             <button type="button" class="btn btn-info">Reset</button>
         </div>
-
+        <?php form_close()?>
     </div>
 </div>
 

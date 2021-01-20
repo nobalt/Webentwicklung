@@ -13,16 +13,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbf4f74c-4c6e-4038-b7cf-a9291a472b07" name="Default Changelist" comment="Übung 5">
-      <change afterPath="$PROJECT_DIR$/CodeIgniter/app/Models/ModelPersonen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/Passwort.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Webentwicklung.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Webentwicklung.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+    <list default="true" id="fbf4f74c-4c6e-4038-b7cf-a9291a472b07" name="Default Changelist" comment="Übung 6">
+      <change afterPath="$PROJECT_DIR$/CodeIgniter/app/Models/AufgabenModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeIgniter/app/Models/LoginModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeIgniter/app/Models/ProjekteModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Config/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Config/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Controllers/BaseController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Controllers/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Controllers/Login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Controllers/Personen.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Controllers/Personen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Models/ModelPersonen.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Models/ModelPersonen.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Views/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Views/Login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Views/Personen.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Views/Personen.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodeIgniter/app/Views/Templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/CodeIgniter/app/Views/Templates/header.php" afterDir="false" />
@@ -32,7 +30,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/CodeIgniter/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -48,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CodeIgniter/app/Models" />
+    <property name="last_opened_file_path" value="D:/Studienprojekt_WEB" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -76,7 +74,8 @@
       <workItem from="1607091194102" duration="31144000" />
       <workItem from="1607965114829" duration="4346000" />
       <workItem from="1609877035655" duration="324000" />
-      <workItem from="1609877363007" duration="30193000" />
+      <workItem from="1609877363007" duration="32825000" />
+      <workItem from="1611081883290" duration="7820000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgabenblatt 2">
       <created>1607091356561</created>
@@ -211,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610450080871</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Übung 6">
+      <created>1610492610060</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1610492610060</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +247,8 @@
     <MESSAGE value="Übung 5 - weitere Änderungen" />
     <MESSAGE value="Übung 5 - Änderungen" />
     <MESSAGE value="Übung 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Übung 5" />
+    <MESSAGE value="Übung 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Übung 6" />
   </component>
   <component name="WindowStateProjectService">
     <state x="266" y="92" key="#CLI_Interpreters" timestamp="1607341775060">
@@ -264,22 +271,22 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="415" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.872@0.0.1368.872" timestamp="1609879578690" />
-    <state x="466" y="192" key="FileChooserDialogImpl" timestamp="1610439810466">
+    <state x="466" y="192" key="FileChooserDialogImpl" timestamp="1610544069870">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="466" y="192" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1610439810466" />
-    <state x="519" y="360" key="NewPhpFileDialog" timestamp="1610481289196">
+    <state x="466" y="192" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1610544069870" />
+    <state x="519" y="360" key="NewPhpFileDialog" timestamp="1611100905607">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="519" y="360" key="NewPhpFileDialog/0.0.1368.872@0.0.1368.872" timestamp="1610481289196" />
+    <state x="519" y="360" key="NewPhpFileDialog/0.0.1368.872@0.0.1368.872" timestamp="1611100905607" />
     <state x="303" y="10" key="SettingsEditor" timestamp="1609878023056">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="303" y="10" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1609878023056" />
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1610450086736">
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2" timestamp="1610492612532">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1610450086736" />
+    <state x="277" y="169" key="Vcs.Push.Dialog.v2/0.0.1368.872@0.0.1368.872" timestamp="1610492612532" />
     <state x="343" y="200" key="run.anything.popup" timestamp="1609881173795">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
